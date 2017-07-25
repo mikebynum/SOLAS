@@ -1,7 +1,36 @@
 ﻿@{
     ViewBag.Title = "About";
+    var imagePath = "";
+    if (Request["photoChoice"] != null)
+    {
+        imagePath = @"images\" + Request["photoChoice"];
+    }
 }
 <h2>@ViewBag.Title.</h2>
 <h3>@ViewBag.Message</h3>
 
-<p>Use this area to provide additional information.</p>
+
+<p style="color: #3a3a36;"><img class="alignnone size-full wp-image-481" src="~/images/SOLAS.png" alt="" width="1000" height="302" /></p>
+<p style="color: #3a3a36;">By definition, the word "solace" means "that which furnishes comfort or consolation."  Coincidentally, SOLAS, although it is spelled differently, provides the same thing for many unwanted dogs, cats, and other animals living in the Council Bluffs/Omaha area.</p>
+SOLAS was started in 1993 by Mary and Mike Jones and a small, hardworking group of volunteers. The purpose of the group is to assist in the care and placement of the animals from local shelters.  We are a now a large network of volunteer foster homes who will work diligently for the health, happiness, socialization and general well-being for all animals.
+<p style="color: #3a3a36;">Every animal that is adopted through SOLAS has been vaccinated, microchipped and spayed or neutered. We firmly believe it is part of responsible pet ownership to have your pet spayed or neutered. While still in our care, pets are altered so that no more irresponsible (or purposeful) breeding is done by that animal.</p>
+<p style="color: #3a3a36;">We believe every animal matters. While we can't save them all, the ones we do save are appreciative and so are the people who lovingly adopt them and provide them with a "furever" home. The local homeless pet population CAN be corrected with educated citizens, active volunteers/rescues, veterinary clinics who work with rescues, and city officials who are willing to stand up for the animals.</p>
+SOLAS is a 501(c)3 Not for Profit organization. We are not affiliated with any political organization.
+<p style="color: #3a3a36;">SOLAS has many different areas in which to volunteer. Some of these include assisting at the shelter, foster care, publicity, or fundraising. Meetings are generally held the third Wednesday of each month with special activities scheduled as needed or required. If you would like more information, please contact Mary Jones at (402) 968-0822</p>
+Please send us an email. We would love to hear from you!
+
+General Information Request: <a href="mailto:info@solaspetadoption.org?Subject=Info%20Request" target="_top">
+    info@solaspetadoption.org
+</a>
+
+Would you like more information on being a foster parent?: <a href="mailto:foster@solaspetadoption.org?Subject=Foster%20Info" target="_top">
+    foster@solaspetadoption.org
+</a>
+
+Questions about adoption?: <a href="mailto:adopt@solaspetadoption.org?Subject=Adoption%20Info" target="_top">
+    adopt@solaspetadoption.org
+</a>
+
+Would you like to volunteer, but not sure how?: <a href="mailto:volunteer@solaspetadoption.org?Subject=Volunteer%20Info" target="_top">
+    volunteer@solaspetadoption.org
+</a>

@@ -26,5 +26,26 @@ namespace SOLAS.Controllers
 
             return View();
         }
+
+        public ActionResult Adopt()
+        {
+            ViewBag.Message = "Your adoptions page.";
+
+            return View();
+        }
+
+        public ActionResult Donate()
+        {
+            ViewBag.Message = "Your donations page.";
+
+            return View();
+        }
+
+        public ActionResult Foster()
+        {
+            ViewBag.Message = "Your foster page.";
+
+            return View();
+        }
     }
 }
