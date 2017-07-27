@@ -1,5 +1,5 @@
 ﻿@{
-    ViewBag.Title = "Home Page";
+    ViewBag.Title = "Home";
 }
 
 <!--
@@ -9,27 +9,30 @@
     <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
 </div>
     -->
-<div> <img src="~/images/BranchBannerPlaceholder.jpg" alt="Cats" style="width:1200px;height:380px;"> </div>
+<div> <img src="~/images/BranchBannerPlaceholder.jpg" alt="Cats" style="width:1200px;height:380px;" align="right"> </div>
 
 <div class="row">
     <div class="col-md-4">
-        <h2>Getting started</h2>
+        <h2>SOLAS News</h2>
         <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
+            Advance America will be hosting SOLAS for an Adoption Event
+            and Food & Litter Drive!!! Come out to Advance America in Lake
+            Manawa on <b>August 19th 2017</b> from 9:30am to 1:30pm and meet adoptable
+            SOLAS kitties. Can't adopt? No problem! Bring a bag of Purina
+            cat/kitten Chow or a container of scoopable litter to help the
+            SOLAS foster kitties! Thanks for your support!!!
         </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+        <p>@Html.ActionLink("Check Out Our Events >>", "Events", "Events", null, new { @class = "btn btn-default" })</p>
     </div>
     <div class="col-md-4">
         <h2>We need foster parents!</h2>
         <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <div class="btn btn-default"><p>@Html.ActionLink("Learn more", "Foster", "Home")</p></div>
+        <div><p>@Html.ActionLink("Learn more >>", "Foster", "Home", new {@class = "btn btn-default" })</p></div>
         <!--<p><a class="btn btn-default" href="~/Views/Home/Foster.cshtml">Learn more &raquo;</a></p>-->
     </div>
     <div class="col-md-4">
-        <h2>Web Hosting</h2>
+        <h2>Cat Of The Month</h2>
         <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+        <div><p>@Html.ActionLink("Check out the cat! >>", "Cat_Of_The_Month", "Home", new { @class = "btn btn-default" })</p></div>
     </div>
 </div>

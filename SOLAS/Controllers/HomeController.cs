@@ -47,5 +47,12 @@ namespace SOLAS.Controllers
 
             return View();
         }
+
+        public ActionResult Cat_Of_The_Month()
+        {
+            ViewBag.Message = "Your Cat of the Month page.";
+
+            return View();
+        }
     }
 }
