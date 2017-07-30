@@ -142,6 +142,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\EventsController.cs" />
+    <Compile Include="Controllers\HelpController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -159,6 +160,8 @@
     <Content Include="images\cat_icon.png" />
     <Content Include="images\cropped-SOLAS-1.png" />
     <Content Include="images\facebook.png" />
+    <Content Include="images\kitten.jpg" />
+    <Content Include="images\SOLAS-250x76.png" />
     <Content Include="images\SOLAS.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -194,9 +197,10 @@
     <Content Include="Views\Home\Adopt.cshtml" />
     <Content Include="Views\Home\Donate.cshtml" />
     <Content Include="Views\Help\Foster.cshtml" />
-    <Content Include="Views\Home\Foster.cshtml" />
     <Content Include="Views\Home\Cat_Of_The_Month.cshtml" />
     <Content Include="Views\Events\Events.cshtml" />
+    <Content Include="Views\Help\Volunteer.cshtml" />
+    <Content Include="Views\Help\WantsList.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

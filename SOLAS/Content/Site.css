@@ -27,3 +27,15 @@ textarea {
     background-color: #82206f;
     border-color: #080808;
 }
+
+img {
+    max-width: 100%
+}
+
+
+RightFloatAds {
+    right: 0px;
+    position: fixed;
+    text-align: center;
+    top: 0px;
+}
