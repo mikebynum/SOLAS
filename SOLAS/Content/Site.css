@@ -39,3 +39,11 @@ RightFloatAds {
     text-align: center;
     top: 0px;
 }
+
+#imgDiv {
+    display: inline-block;
+}
+
+#txtDiv {
+    display: inline-block;
+}
