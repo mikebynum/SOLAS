@@ -159,6 +159,12 @@
     <Content Include="images\Cats\Kingsley2.jpg" />
     <Content Include="images\Cats\Leelou.jpeg" />
     <Content Include="images\Cats\Leelou2.jpg" />
+    <Content Include="images\Cats\Pancake.jpg" />
+    <Content Include="images\Cats\Pancake2.jpg" />
+    <Content Include="images\Cats\Princess.jpg" />
+    <Content Include="images\Cats\Princess2.jpg" />
+    <Content Include="images\Cats\Vader Princess.jpeg" />
+    <Content Include="images\Cats\Vader3.jpg" />
     <Content Include="images\cat_icon.png" />
     <Content Include="images\CorkyCanvas.png" />
     <Content Include="images\cropped-SOLAS-1.png" />
