@@ -24,6 +24,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -155,10 +156,19 @@
     <Content Include="images\BranchBannerPlaceholder.jpg" />
     <Content Include="images\cat_icon.png" />
     <Content Include="images\cropped-SOLAS-1.png" />
+    <Content Include="images\Dizzy2.jpg" />
     <Content Include="images\facebook.png" />
+    <Content Include="images\Feline Santas_small.png" />
+    <Content Include="images\Jack.png" />
+    <Content Include="images\Jack2.JPG" />
     <Content Include="images\kitten.jpg" />
+    <Content Include="images\Marshmallo.png" />
+    <Content Include="images\SOLAS Chili 2017.jpg" />
     <Content Include="images\SOLAS-250x76.png" />
     <Content Include="images\SOLAS.png" />
+    <Content Include="images\Titan.jpg" />
+    <Content Include="images\Titan2.png" />
+    <Content Include="images\Titanjack.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
